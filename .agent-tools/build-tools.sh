@@ -14,6 +14,10 @@ apt-get install -y nodejs
 
 apt-get install -y jq
 
+# Node.js and test runner type definitions
+npm install --save-dev @types/node
+npm install --save-dev @types/jest  # Or @types/mocha if you use Mocha
+
 # Install gulp
 npm install -g gulp
 
